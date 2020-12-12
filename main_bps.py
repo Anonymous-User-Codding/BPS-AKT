@@ -169,7 +169,7 @@ def get_auc(fold_num):
 
     # Datasets and Model
     parser.add_argument('--model', type = str, default = 'akt_eid',
-                        help="combination of akt (mandatory), eid/tid/fid/xid/yid (mandatory) separated by underscore '_'.")
+                        help="combination of akt (mandatory), eid/xid/yid (mandatory) separated by underscore '_'.")
     parser.add_argument('--dataset', type = str, default = 'assist2009_eid')
 
     params = parser.parse_args()
@@ -182,8 +182,8 @@ def get_auc(fold_num):
         params.data_name = dataset
         params.n_skill = 124
         params.n_eid = 26688
-        params.n_tid = 214
-        params.n_fid = 214
+        params.n_tid = 214 #maximum true response count in past
+        params.n_fid = 214 #maximum false response count in past
         params.n_xid = 816 #template
         params.n_yid = 10 #hint
 
@@ -194,8 +194,8 @@ def get_auc(fold_num):
         params.data_name = dataset
         params.n_skill = 102
         params.n_eid = 3162
-        params.n_tid = 12
-        params.n_fid = 90
+        params.n_tid = 12 #maximum true response count in past
+        params.n_fid = 90 #maximum false response count in past
         params.n_xid = 56 #hint
         params.n_yid = 0
 
