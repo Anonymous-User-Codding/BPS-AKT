@@ -1,4 +1,3 @@
-# Code reused from https://github.com/arghosh/AKT
 import os
 import os.path
 import glob
@@ -169,7 +168,7 @@ def get_auc(fold_num):
 
     # Datasets and Model
     parser.add_argument('--model', type = str, default = 'akt_eid',
-                        help="combination of akt, eid/tid/fid (mandatory) separated by underscore '_'.")
+                        help="combination of akt, eid (mandatory) separated by underscore '_'.")
     parser.add_argument('--dataset', type = str, default = 'assist2009_eid')
 
     params = parser.parse_args()
