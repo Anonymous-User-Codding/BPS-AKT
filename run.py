@@ -1,4 +1,3 @@
-# Code reused from https://github.com/arghosh/AKT
 import numpy as np
 import torch
 import math
