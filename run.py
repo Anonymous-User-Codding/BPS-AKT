@@ -282,6 +282,6 @@ def test(net, params, optimizer, s_data, sa_data, eid_data, tid_data, fid_data, 
     all_target = np.concatenate(target_list, axis=0)
     loss = binaryEntropy(all_target, all_pred)
     auc = compute_auc(all_target, all_pred)
-    accuracy = compute_acc(all_target, all_pred)
+    acc = compute_acc(all_target, all_pred)
 
-    return loss, accuracy, auc
+    return loss, acc, auc
