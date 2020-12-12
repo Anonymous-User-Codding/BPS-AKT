@@ -1,4 +1,3 @@
-# Code reused from https://github.com/arghosh/AKT
 import torch
 from torch import nn
 from torch.nn.init import xavier_uniform_
