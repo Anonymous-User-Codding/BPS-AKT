@@ -117,7 +117,7 @@ def get_auc(fold_num):
     # Parse Arguments
     parser = argparse.ArgumentParser(description='Script to test KT')
     # Basic Parameters
-    parser.add_argument('--max_iter', type=int, default=3,
+    parser.add_argument('--max_iter', type=int, default=500,
                         help='number of iterations')
     parser.add_argument('--train_set', type=int, default=fold_num)
     parser.add_argument('--seed', type=int, default=224, help='default seed')
