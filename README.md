@@ -10,9 +10,11 @@ The requiring environment is as bellow:
 - Scipy 1.3.1
 - Numpy 1.17.2
 
-'s' and 'e' in codes denote skill and exercise, respectively; 
-'t' and 'f' in codes denote the ture and false response count in the past, respectively; 
-'x' and 'y' in codes denote two side factors; 
+## Notes
+
+- 's' and 'e' in code denote skill and exercise, respectively.
+- 't' and 'f' in code denote the ture and false response count in the past, respectively.
+- 'x' and 'y' in code denote two side factors.
 
 ## Running BPS-AKT.
 Here are some examples for using BPS_AKT model:
