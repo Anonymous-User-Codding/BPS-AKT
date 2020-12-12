@@ -1,4 +1,3 @@
-# Code reused from https://github.com/arghosh/AKT
 import os
 import torch
 from bps_akt import AKT
