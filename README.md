@@ -24,20 +24,3 @@ Here are some examples for using BPS_AKT model:
 python main_bps.py --dataset assist2009_eid --model akt_eid_xid_yid
 python main_bps.py --dataset assist2017_eid --model akt_eid_xid_yid
 ```
-
-## Running RFE-AKT.
-Here are some examples for using REF_AKT model:
-
-(on ASSISTments2009 and ASSISTments2017 datasets)
-```
-python main_pfe.py --dataset assist2009_eid --model akt_eid_xid_yid
-python main_pfe.py --dataset assist2017_eid --model akt_eid_xid_yid
-```
-## Running RME-AKT.
-Here are some examples for using BPS_AKT model:
-
-(on ASSISTments2009 and ASSISTments2017 datasets)
-```
-python main_pfe.py --dataset assist2009_eid --model akt_eid_xid_yid
-python main_pfe.py --dataset assist2017_eid --model akt_eid_xid_yid
-```
